@@ -1,0 +1,30 @@
+.Home_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul li {
+  margin: 10px 20px;
+  cursor: pointer;
+  color: lightgray;
+}
+ul li.active_header {
+  color: white;
+}
+ul li::after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #1db954;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+ul li:hover:after {
+  transform: scaleX(1);
+}

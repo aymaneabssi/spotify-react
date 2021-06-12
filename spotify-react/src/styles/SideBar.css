@@ -1,0 +1,68 @@
+.SideBar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  flex: 0.15;
+  background: black;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.first_options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first_options > img {
+  width: 100%;
+}
+.option {
+  display: flex;
+  align-items: center;
+  color: lightgray;
+  font-weight: 500;
+}
+.option > .icon {
+  margin: 0 10px;
+}
+.active {
+  border-left: 4px solid #1db954;
+  color: white;
+}
+.second_options {
+  display: flex;
+  flex-direction: column;
+}
+#SignUp {
+  padding: 7px 50px;
+  border-radius: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#SignIn {
+  padding: 7px 50px;
+  color: White;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.info {
+  color: lightgray;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.cookies {
+  padding-right: 20px;
+  border-right: 1px solid gray;
+  margin-bottom: 5px;
+}
+.policy {
+  margin-left: 20px;
+}
