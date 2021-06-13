@@ -5,7 +5,13 @@ const AlbumsHome = () => {
   return (
     <div className='Albums'>
       <h1 className='type_title'>#throwbackthursday</h1>
-      <AlbumHome />
+      <div className='albumRow'>
+        <AlbumHome />
+        <AlbumHome />
+        <AlbumHome />
+        <AlbumHome />
+        <AlbumHome />
+      </div>
     </div>
   );
 };

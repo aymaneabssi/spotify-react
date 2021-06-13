@@ -7,3 +7,7 @@ h1 {
   margin-top: 40px;
   text-transform: uppercase;
 }
+.albumRow {
+  display: flex;
+  align-items: center;
+}

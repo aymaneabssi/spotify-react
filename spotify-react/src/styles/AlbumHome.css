@@ -1,0 +1,14 @@
+.album_home {
+  width: 200px;
+  height: 240px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.album_home > img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
