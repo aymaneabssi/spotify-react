@@ -7,7 +7,9 @@ const MainHome = () => {
   return (
     <div className='MainHome'>
       <HomeHeader />
-      <AlbumsHome />
+      <AlbumsHome title='#throwbackthursday' Artist='love' />
+      <AlbumsHome title='New realeases' Artist='fear' />
+      <AlbumsHome title='podcasts' Artist='peace' />
     </div>
   );
 };

@@ -13,7 +13,7 @@ ul {
 ul li {
   margin: 10px 20px;
   cursor: pointer;
-  color: lightgray;
+  color: rgb(240, 240, 240);
 }
 ul li.active_header {
   color: white;

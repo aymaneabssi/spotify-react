@@ -36,14 +36,14 @@
   flex-direction: column;
 }
 #SignUp {
-  padding: 7px 50px;
+  padding: 5px 40px;
   border-radius: 20px;
   border: 2px solid black;
   cursor: pointer;
 }
 
 #SignIn {
-  padding: 7px 50px;
+  padding: 5px 40px;
   color: White;
   background-color: black;
   border: 2px solid white;
